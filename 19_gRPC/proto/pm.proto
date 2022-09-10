@@ -1,0 +1,12 @@
+syntax="proto3";
+option go_package = "./";
+message CPU {
+  // 品牌
+  string brand = 1;
+  // 名字
+  string name = 2;
+  uint32 num_cores = 3;
+  uint32 num_threads = 4;
+  double min_ghz = 5;
+  double max_ghz = 8;
+}
