@@ -53,7 +53,6 @@ func create(n int){
 	close(clients)
 }
 
-
 func main() {
 	fmt.Println("Capacity of clients:", cap(clients))
 	fmt.Println("Capacity of data:", cap(data))
